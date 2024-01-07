@@ -6,7 +6,7 @@ Key Features:
 
 NVD Data Integration: Leverages the widely-used NVD (National Vulnerability Database) data feed v1.1 as the model's primary data source.
 
-Data Visualization: Generates informative visualizations to explore data characteristics, model fit, and forecast predictions.
+Data Visualization: Generates visualizations to explore seasonality and trends. Specifically includes ACF, Polar, Decomposition Plots.
 
 Time Series Forecasting: Employs SARIMAX, a powerful time series modeling technique, to capture seasonal patterns and trends in CVE disclosure data.
 
@@ -29,14 +29,17 @@ seaborn
 plotly
 Installation:
 
-Clone this repository: git clone https://github.com/[your-username]/predicting-cve-trends.git
+Clone this repository: git clone https://github.com/yamineesh-k/cve_prediction_timeseries.git
+
 Install dependencies: pip install -r requirements.txt
+
 Getting Started:
 
 Navigate to the notebooks/ directory.
-Open the main notebook (e.g., predicting_cve_trends.ipynb) in Jupyter Notebook or a similar environment.
+Open the main notebook (cve_prediction_timeseries.ipynb) in Jupyter Notebook or a similar environment.
 Follow the instructions within the notebook to execute the code and explore model results.
 
 Contributions and Suggestions:
 
-Welcome contributions and suggestions! Please reach out to me on Linkedin at https://www.linkedin.com/in/yamineesh
+Welcome contributions and suggestions! 
+Please reach out to me on Linkedin at https://www.linkedin.com/in/yamineesh
