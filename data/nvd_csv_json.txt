@@ -1,0 +1,3 @@
+Data directly ingested from nvd cve feed. Please refer https://nvd.nist.gov/vuln/data-feeds#JSON_FEED
+
+For data dictionary and Vulnerability Metric Definitions, please refer https://www.first.org/cvss/v4.0/user-guide 
