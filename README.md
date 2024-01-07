@@ -22,7 +22,6 @@ images/: Includes the Data Visualizations generated from the project.
 README.md (this file): Provides an overview of the project and its contents.
 
 Dependencies:
-
 pandas
 numpy
 statsmodels
