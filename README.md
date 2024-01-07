@@ -1,2 +1,42 @@
-# cve_prediction_timeseries
- Time Series Model to Predict CVEs for 2024
+# Predicting Monthly Software Vulnerability (CVE) Disclosure Trends for 2024
+
+This repository contains a Python-based machine learning project that aims to predict the monthly count of CVEs (Common Vulnerabilities and Exposures) for the year 2024. The model utilizes a SARIMAX (Seasonal AutoRegressive Integrated Moving Average with eXogenous Regressors) approach to analyze historical trends and generate forecasts.
+
+Key Features:
+
+NVD Data Integration: Leverages the widely-used NVD (National Vulnerability Database) data feed v1.1 as the model's primary data source.
+
+Data Visualization: Generates informative visualizations to explore data characteristics, model fit, and forecast predictions.
+
+Time Series Forecasting: Employs SARIMAX, a powerful time series modeling technique, to capture seasonal patterns and trends in CVE disclosure data.
+
+
+Project Structure:
+
+data/: Contains the NVD data files used for training and evaluation.
+notebooks/: Includes Jupyter Notebooks with detailed code walkthroughs and results.
+models/: Stores trained model files for future use.
+README.md (this file): Provides an overview of the project and its contents.
+
+Dependencies:
+
+pandas
+numpy
+statsmodels
+sklearn
+matplotlib
+seaborn
+plotly
+Installation:
+
+Clone this repository: git clone https://github.com/[your-username]/predicting-cve-trends.git
+Install dependencies: pip install -r requirements.txt
+Getting Started:
+
+Navigate to the notebooks/ directory.
+Open the main notebook (e.g., predicting_cve_trends.ipynb) in Jupyter Notebook or a similar environment.
+Follow the instructions within the notebook to execute the code and explore model results.
+
+Contributions and Suggestions:
+
+Welcome contributions and suggestions! Please reach out to me on Linkedin at https://www.linkedin.com/in/yamineesh
