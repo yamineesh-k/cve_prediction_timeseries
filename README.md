@@ -14,9 +14,11 @@ Time Series Forecasting: Employs SARIMAX, a powerful time series modeling techni
 Project Structure:
 
 data/: Contains the NVD data files used for training and evaluation.
+
 notebooks/: Includes Jupyter Notebooks with detailed code walkthroughs and results.
-models/: Stores trained model files for future use.
+
 images/: Includes the Data Visualizations generated from the project.
+
 README.md (this file): Provides an overview of the project and its contents.
 
 Dependencies:
